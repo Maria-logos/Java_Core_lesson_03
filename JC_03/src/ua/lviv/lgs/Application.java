@@ -21,12 +21,12 @@ public class Application {
 		
 		System.out.println(" ---------");
 		
-		Animal animal = new Animal("Кіт", 15.2, 10);
+		Animal animal = new Animal("Cat", 15.2, 10);
 		System.out.println("Animal name = " + animal.getName() + ", Animal speed = " + 
 		        animal.getSpeed() +" km/h, Animal age = " + animal.getAge() + " years -------------------------");
 		
 		animal.setAge(8);
-		animal.setName("Пес");
+		animal.setName("Dog");
 		animal.setSpeed(12);
 		
 		System.out.println("Animal name = " + animal.getName() + ", Animal speed = " + 
